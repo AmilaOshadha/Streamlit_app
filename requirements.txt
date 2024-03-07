@@ -1,4 +1,6 @@
-pandas 
+pandas
+prophet
 matplotlib
-prophet 
-yfinance 
+streamlit
+plotly
+yfinance
