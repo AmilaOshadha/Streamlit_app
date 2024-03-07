@@ -1,10 +1,9 @@
 import pandas as pd
-from prophet import Prophet
 import matplotlib.pyplot as plt
 
 import yfinance as yf
 from datetime import datetime
-
+from prophet import Prophet
 amzn = yf.Ticker("AMZN")
 
 def forecast(start_date,forecast_period):
